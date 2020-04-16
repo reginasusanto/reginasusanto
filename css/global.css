@@ -1,325 +1,450 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Caladea:400i|PT+Serif:700|Passion+One|Playfair+Display|Raleway|Rye&display=swap');
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-li {
-  float: left;
-  list-style:none;
+a {
+	text-decoration: none;
+}
+.navigation {
+	width: 100%;
+	height: 10vh;
+	background-color: #F8F8F8;
 }
 
-li a, .dropbtn {
-  display: inline-block;
-  padding-right: 40px;
+.home {
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-left: 100px;
 }
 
-li.dropdown {
-  display: inline-block;
+.home p {
+	padding-top: 25px;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 10;
+.adopt {
+	width: auto;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
 }
 
-.dropdown-content a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  padding-top: 20px;
+.adopt p {
+	padding-top: 25px;
 }
 
-.dropdown-content a:hover {
-  color: white;
+.shop {
+	width: auto;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.shop p {
+	padding-top: 25px;
+}
+.bunnycare {
+	width: auto;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
 }
 
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 50px;
-  background-color: maroon;
-  z-index: 10;
-}
-
-main {
-  width: 1200px;
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-nav main {
-  padding-top: 10px;
-}
-
-nav main a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  padding-top: 10px;
-  padding-right: 15px;
-}
-
-nav main a:hover {
-  text-decoration: underline;
-  color: white;
+.bunnycare p {
+	padding-top: 25px;
 }
 
 
-section {
-  width: 100%;
-  height: 100vh;
-  position: relative;
+.margin {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-section.full {
-  height:100vh;
-  background-image:url('../image/empat.gif');
-  background-size: cover;
-  background-position: top left;
-  background-repeat: no-repeat;
+section.container {
+	width: 100%;
+	height: 90vh;
+	background-color: #F8F8F8;
 }
 
-
-
-
-section .watermark {
-  margin-top: 2vw;
-  left: 0px;
-  width: 100%;
-  text-align:center;
-  /*background-color: cyan;*/
+.kiri {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #F8F8F8;
 }
 
-
-.judul {
-  margin-top: 20%;
-  width: 100%;
-  text-align: center;
+.topic1 {
+	width: 100%;
+	height: auto;
+	padding-top: 200px;
+	padding-left: 100px;
 }
 
-.judul1 {
-  margin-top: 20px;
-  
-  width:100%;
-  text-align: center;
-}
-
-.subjudul {
-  margin-top:2%;
-  width 100%;
-  text-align: center;
+.bunnycaree {
+	width: 100%;
+	height: auto;
+	padding-left: 100px;
+	padding-top: 20px;
 }
 
 .isi {
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
+	width: 40%;
+	height: auto;
+	padding-left: 100px;
+	padding-top: 20px;
 }
 
-.text {
-  margin-top: 15%;
-  width: 90%;
-  margin-left: auto;
+.isi1 {
+	width: 70%;
+	height: auto;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.readmore {
+	width: 20%;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 100px;
+	padding: 20px;
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+
+.kanan {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/kelinciii.jpg");
+	background-size: cover;
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F8F8F8;
+}
+
+.background1 {
+	width: 100vw;
+	height: 400vh;
+	background-color: #BEDFEA;
+}
+
+.background2 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #E2CCCC;
+}
+
+
+.button {
+  width: 25%;
+  height: 10%;
+  background-color:antiquewhite;
+}
+
+.featured {
+  width : 50vw;
+  height : 7vh;
+  margin-left : 11vw;
+  padding-top: 2%;
+}
+
+.featured p {
+  width : 50vw;
+  height : 7vh;
+  margin-left : 11vw;
+  padding-top: 20%;
+}
+
+.shapefull
+{
+  width: 90vw;
+  height: 70vh;
+  margin-left:10vw;
+  float:left;
+  margin-top :2vh;
+  overflow-x : auto;
+}
+
+
+.shape {
+  background-color: #F7EADC;
+  width: 25vw;
+  height: 45vh;
+  margin-right:2%;
+  border-radius: 20px;
+  float:left;
+  margin-top : 1%;
+}
+
+.shape1 {
+  background-color: #F7EADC;
+  width: 80vw;
+  height: 45vh;
   margin-right: auto;
-  text-align:center;
-}
-
-.textone {
-  width: 100%;
-  margin-top:10%;
-}
-
-.texttwo {
-  width: 100%;
-}
-
-.textthree {
-  width: 100%
-  margin-top: 10%;
-  padding-top:30%;
-  text-align: center;
-}
-
-.dividetexttwo {
-  width: 50%;
+  margin-left: 10vw;
+  border-radius: 20px;
+  margin-top : 1%;
   float: left;
 }
 
-.twodivide {
-  width:100%;
-}
-
-.number {
-  width: 5%;
-  padding-top:5%;
-  float: left;
-}
-
-.textdivide {
-  padding-top:5%;
-  width:90%;
-  margin-left: 5%;
-  float: left;
-}
-
-@media (max-width: 886px) {
-  main {
-    width: 100vw;
-  }
-  
-  li {
-  float: left;
-  list-style:none;
-}
-
-li a, .dropbtn {
-  display: inline-block;
-  padding-right: 40px;
-}
-
-li.dropdown {
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 10;
-}
-
-.dropdown-content a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  padding-top: 20px;
-}
-
-.dropdown-content a:hover {
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 50px;
-  background-color: maroon;
-  z-index: 10;
-}
-
-nav main {
-  padding-top: 10px;
-}
-
-nav main a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Raleway', sans-serif;
-  padding-top: 10px;
-  padding-right: 15px;
-}
-
-nav main a:hover {
-  text-decoration: underline;
-  color: white;
-}
-
-
-section {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-}
-
-section.full {
-  height:100vh;
-  background-image:url('../image/empat.gif');
+.rabbit1 {
+  width : 90%;
+  height : 50%;
+  margin-left : 5%;
+  margin-top : 5%;
+  background-image: url('../image/rabbit1.jpg');
   background-size: cover;
-  background-position: top left;
+}
+
+.food1 {
+  width : 30%;
+  height : 73%;
+  margin-left : 5%;
+  background-image: url('../image/food1.png');
+  background-size: contain;
+  padding-top: 7%;
+  float: left;
   background-repeat: no-repeat;
 }
 
-section .watermark {
-  margin-top: 2vw;
-  left: 0px;
-  width: 100%;
-  text-align:center;
-  /*background-color: cyan;*/
+.rabbit2 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit2.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
 }
 
+.food2 {
+  width : 30%;
+  height : 85%;
+  margin-left : 5%;
+  background-image: url('../image/food2.png');
+  background-size: contain;
+  padding-top: 4%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit3 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit3.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food3 {
+  width : 30%;
+  height : 80%;
+  margin-left : 5%;
+  background-image: url('../image/food3.png');
+  background-size: contain;
+  padding-top: 5%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit4 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit4-01.png');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food4 {
+  width : 30%;
+  height : 100%;
+  margin-left : 5%;
+  background-image: url('../image/food4.png');
+  background-size: contain;
+  padding-top: 3%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit5 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit5.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food5 {
+  width : 30%;
+  height : 80%;
+  margin-left : 5%;
+  background-image: url('../image/food5.png');
+  background-size: contain;
+  padding-top: 6%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit6 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit6.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food6 {
+  width : 30%;
+  height : 100%;
+  margin-left : 5%;
+  background-image: url('../image/food6.png');
+  background-size: contain;
+  padding-top: 0%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.food7 {
+  width : 30%;
+  height : 80%;
+  margin-left : 5%;
+  background-image: url('../image/food7.png');
+  background-size: contain;
+  padding-top: 5%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.food8 {
+  width : 30%;
+  height : 75%;
+  margin-left : 10%;
+  background-image: url('../image/food8.png');
+  background-size: contain;
+  padding-top: 6%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.name {
+  width : 40%;
+  height : 10%;
+  background-color: #F9D4C5;
+  border-radius : 5px;
+  margin-left : auto;
+  margin-right: auto;
+  text-align : center;
+  margin-top : 2%;
+}
+
+.name1 {
+  width : 40%;
+  height : 10%;
+  margin-left: 10%;
+  background-color: #F9D4C5;
+  border-radius : 5px;
+  text-align : center;
+  margin-top: 4.5%;
+  float: left;
+}
+
+.description {
+  width : 90%;
+  height :25%;
+  margin-top : 3%;
+  background-color : #F7E2DA;
+  margin-left : 5%;
+  border-radius: 5px;
+  text-align : center;
+}
+
+.description1 {
+  width : 40%;
+  height :60%;
+  margin-top : 2%;
+  margin-left: 10%;
+  background-color : #D6E5EA;
+  border-radius: 5px;
+  text-align : center;
+  float: left;
+}
+
+.description h3 {
+  width : 90%;
+  height :25%;
+  text-align : center;
+  padding-top: 4%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.name p{
+  padding-top: 7%;
+}
+
+.name1 p{
+  padding-top: 2%;
+}
+
+.description1 h3 {
+  width : 90%;
+  height :25%;
+  text-align : center;
+  padding-top: 4%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.topik1 {
+	width: 100%;
+	height: auto;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.topik {
+	width: 50%;
+	height: auto;
+	padding-top: 10px;
+	margin-left: 40%;
+	margin-right: 10%;
+}
 
 .judul {
-  margin-top: 30%;
-  width: 100%;
-  text-align: center;
+	width: 50%;
+	height: auto;
+	padding-top: 10px;
+	margin-left: 40%;
+	margin-right: 10%;
 }
 
-.subjudul {
-  margin-top:2%;
-  width 100%;
-  text-align: center;
+.fill {
+	width: 50%;
+	height: auto;
+	padding-top: 20px;
+	margin-left: 40%;
+	margin-right: 10%;
 }
 
-.isi {
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
+.kiri {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #F8F8F8;
 }
 
-.text {
-  margin-top: 15%;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align:center;
-}
-
-.textone {
-  width: 100%;
-  margin-top:10%;
-}
-
-.texttwo {
-  width: 100%;
-}
-
-.dividetexttwo {
-  width: 50%;
-  float: left;
-}
-
-.twodivide {
-  width:100%;
-}
-
-.number {
-  width: 5%;
-  padding-top:5%;
-  float: left;
-}
-
-.textdivide {
-  padding-top:5%;
-  width:90%;
-  margin-left: 5%;
-  float: left;
-}
+.container1 {
+	width: 100%;
+	height: 30vh;
+	background-color: #F8F8F8;
 }
