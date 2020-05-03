@@ -1,0 +1,828 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+.navigation {
+	width: 100vw;
+	height: 10vh;
+	background-color: #F8F8F8;
+}
+
+.home {
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-left: 100px;
+}
+
+.home p {
+	padding-top: 25px;
+}
+
+.home:hover p{
+	/*cursor: pointer;*/
+	color: brown;
+	/*background-color: black;*/
+}
+
+.adopt {
+	width: auto;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+}
+
+.adopt:hover p{
+	/*cursor: pointer;*/
+	color: brown;
+	/*background-color: black;*/
+}
+
+.adopt p {
+	padding-top: 25px;
+}
+
+.shop {
+	width: auto;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+}
+
+.shop p {
+	padding-top: 25px;
+}
+
+.shop:hover p{
+	/*cursor: pointer;*/
+	color: brown;
+	/*background-color: black;*/
+}
+
+.bunnycare {
+	width: auto;
+	height: 100%;
+	margin-left: 5%;
+	float: left;
+}
+
+.bunnycare p {
+	padding-top: 25px;
+}
+
+.bunnycare:hover p{
+	/*cursor: pointer;*/
+	color: brown;
+	/*background-color: black;*/
+}
+
+.margin {
+	width: 85%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.container {
+	width: 100%;
+	height: 90vh;
+	background-color: #F8F8F8;
+}
+
+.kiri {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #F8F8F8;
+}
+
+.topic1 {
+	width: 100%;
+	height: auto;
+	padding-top: 200px;
+	padding-left: 100px;
+}
+
+.bunnycaree {
+	width: 100%;
+	height: auto;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.isi {
+	width: 70%;
+	height: auto;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.isi1 {
+	width: 70%;
+	height: auto;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+.readmore {
+	width: 20%;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 100px;
+	padding: 20px;
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+
+.kanan {
+	width: 40%;
+	height: 100%;
+	float: left;
+	background-image: url("../image/kelinciii.jpg");
+	background-size: cover;
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: #F8F8F8;
+}
+
+.background1 {
+	width: 100vw;
+	height: 400vh;
+	background-color: #BEDFEA;
+}
+
+.background2 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #E2CCCC;
+}
+
+
+.button {
+  width: 25%;
+  height: 10%;
+  background-color:antiquewhite;
+}
+
+.featured {
+  width : 50vw;
+  height : 7vh;
+  margin-left : 11vw;
+  padding-top: 2%;
+  margin-bottom: 2vw;
+}
+
+.featured p {
+  width : 50vw;
+  height : 7vh;
+  margin-left : 11vw;
+  padding-top: 20%;
+}
+
+.shapefull
+{
+  width: 90vw;
+  height: 70vh;
+  margin-left:10vw;
+  float:left;
+  margin-top :2vh;
+  overflow-x : auto;
+}
+
+
+.shape {
+  background-color: #F7EADC;
+  width: 25vw;
+  height: 45vh;
+  margin-right:2%;
+  border-radius: 20px;
+  float:left;
+  margin-top : 1%;
+}
+
+.shapehasilklik1 {
+  background-color: white;
+  width: 25vw;
+  height: 45vh;
+  margin-right:2%;
+  border-radius: 20px;
+  float:left;
+  margin-top : 1%;
+  display: none;
+}
+
+.shapesebelumklik1 {
+  background-color: #F7EADC;
+  width: 25vw;
+  height: 45vh;
+  margin-right:2%;
+  border-radius: 20px;
+  float:left;
+  margin-top : 1%;
+  /*display: none;*/
+}
+
+
+.shape:hover {
+  cursor: pointer;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {bottom: 0.3vw; opacity: .4;}
+  to {bottom: 1vw; opacity: 1; }
+}
+
+
+.shape1 {
+  background-color: #F7EADC;
+  width: 80vw;
+  height: 45vh;
+  margin-right: auto;
+  margin-left: 10vw;
+  border-radius: 20px;
+  margin-top : 1%;
+  float: left;
+}
+
+.active, .shape1:hover {
+  background-color: #717171;
+}
+
+.rabbit1 {
+  width : 90%;
+  height : 50%;
+  margin-left : 5%;
+  margin-top : 5%;
+  background-image: url('../image/rabbit1.jpg');
+  background-size: cover;
+}
+
+.food1 {
+  width : 30%;
+  height : 73%;
+  margin-left : 5%;
+  background-image: url('../image/food1.png');
+  background-size: contain;
+  padding-top: 7%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit2 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit2.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food2 {
+  width : 30%;
+  height : 85%;
+  margin-left : 5%;
+  background-image: url('../image/food2.png');
+  background-size: contain;
+  padding-top: 4%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit3 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit3.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food3 {
+  width : 30%;
+  height : 80%;
+  margin-left : 5%;
+  background-image: url('../image/food3.png');
+  background-size: contain;
+  padding-top: 5%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit4 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit4-01.png');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food4 {
+  width : 30%;
+  height : 100%;
+  margin-left : 5%;
+  background-image: url('../image/food4.png');
+  background-size: contain;
+  padding-top: 3%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit5 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit5.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food5 {
+  width : 30%;
+  height : 80%;
+  margin-left : 5%;
+  background-image: url('../image/food5.png');
+  background-size: contain;
+  padding-top: 6%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.rabbit6 {
+  width : 90%;
+  height : 50%;
+  background-image: url('../image/rabbit6.jpg');
+  background-size: cover;
+  margin-left : 5%;
+  margin-top : 5%;
+}
+
+.food6 {
+  width : 30%;
+  height : 100%;
+  margin-left : 5%;
+  background-image: url('../image/food6.png');
+  background-size: contain;
+  padding-top: 0%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.food7 {
+  width : 30%;
+  height : 80%;
+  margin-left : 5%;
+  background-image: url('../image/food7.png');
+  background-size: contain;
+  padding-top: 5%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.food8 {
+  width : 30%;
+  height : 75%;
+  margin-left : 10%;
+  background-image: url('../image/food8.png');
+  background-size: contain;
+  padding-top: 6%;
+  float: left;
+  background-repeat: no-repeat;
+}
+
+.name {
+  width : 40%;
+  height : 10%;
+  background-color: #F9D4C5;
+  border-radius : 5px;
+  margin-left : auto;
+  margin-right: auto;
+  text-align : center;
+  margin-top : 2%;
+}
+
+.name1 {
+  width : 40%;
+  height : 10%;
+  margin-left: 10%;
+  background-color: #F9D4C5;
+  border-radius : 5px;
+  text-align : center;
+  margin-top: 4.5%;
+  float: left;
+}
+
+.description {
+  width : 90%;
+  height :25%;
+  margin-top : 3%;
+  background-color : #F7E2DA;
+  margin-left : 5%;
+  border-radius: 5px;
+  text-align : center;
+}
+
+.description1 {
+  width : 40%;
+  height :60%;
+  margin-top : 2%;
+  margin-left: 10%;
+  background-color : #D6E5EA;
+  border-radius: 5px;
+  text-align : center;
+  float: left;
+}
+
+.description h3 {
+  width : 90%;
+  height :25%;
+  text-align : center;
+  padding-top: 4%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.name p{
+  padding-top: 7%;
+}
+
+.name1 p{
+  padding-top: 2%;
+}
+
+.description1 h3 {
+  width : 90%;
+  height :25%;
+  text-align : center;
+  padding-top: 4%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.topik1 {
+	width: 100%;
+	height: auto;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+.topik {
+	width: 50%;
+	height: auto;
+	padding-top: 10px;
+	margin-left: 40%;
+	margin-right: 10%;
+}
+
+.judul {
+	width: 50%;
+	height: auto;
+	padding-top: 10px;
+	margin-left: 40%;
+	margin-right: 10%;
+}
+
+.fill {
+	width: 50%;
+	height: auto;
+	padding-top: 20px;
+	margin-left: 40%;
+	margin-right: 10%;
+}
+
+.kiri {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #F8F8F8;
+}
+
+.container1 {
+	width: 100%;
+	height: 30vh;
+	background-color: #F8F8F8;
+}
+
+.fullname {
+  width: 40%;
+  height: 50%;
+}
+
+.email {
+  width: 100%;
+  height: 50%;
+}
+
+.message {
+  width: 100%;
+  height: 100%;
+}
+
+section.interest {
+  width: 100%;
+  height: 65vh;
+  background-color: #E2CCCC;
+}
+
+.interested {
+  width: 80%;
+  height: 10%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+.submitform {
+  width: 80%;
+  height: 20%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+.form {
+  width: 80%;
+  height: 40%;
+  margin-left:10%;
+  margin-right: 10%;
+}
+
+.formkiri {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.formkanan {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.footerbox {
+  width: 100vw;
+  height: 15%;
+  background-color: #C69B9B;
+  margin-top: 3vw;
+  position: absolute;
+}
+
+.isifooter {
+  width: 30%;
+  height: 20%;
+  margin-left: 6vw;
+  margin-top: 3vw;
+  /*background-color: yellow;*/
+}
+
+.footerbox1 {
+  width: 100vw;
+  height: 15%;
+  background-color: #81BCCC;
+  padding-top: 3vw;
+  position: absolute;
+}
+
+.isifooter1 {
+  width: 30%;
+  height: 20%;
+  margin-left: 6vw;
+  margin-top: 2vw;
+  /*background-color: yellow;*/
+}
+
+.footerbox2 {
+  width: 100%;
+  height: 15%;
+  background-color: #C5C8C9;
+  position: absolute;
+}
+
+.isifooter2 {
+  width: 30%;
+  height: 20%;
+  margin-left: 6vw;
+  margin-top: 3vw;
+  position: absolute;
+  /*background-color: yellow;*/
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 36vw;
+  padding: 1.5vw;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFCEF;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #FFF4EF;
+  outline: none;
+}
+
+.send {
+	width: 50%;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 18%;
+	padding: 20px;
+	text-align: center;
+	background-color: antiquewhite;
+}
+
+.topik2 {
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	/*margin-left: -50vw;*/
+	/*margin-right: 10%;*/
+}
+
+.judul2 {
+	width: 100%;
+	height: auto;
+	padding-top: 10px;
+	/*margin-left: -50vw;*/
+	/*margin-right: 40%;*/
+}
+
+.fill2 {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	/*margin-left: -50vw;*/
+	/*margin-right: 40%;*/
+}
+
+.containerkiri {
+  width: 50%;
+  height: 20%;
+  background-color: yellow;
+}
+
+section.containerr {
+	width: 100%;
+	height: 70vh;
+	background-color: #F8F8F8;
+}
+
+@media (max-width: 700px) {
+  
+  html{
+    background-color: #F8F8F8;
+  }
+  
+  .navigation {
+  	width: 100vw;
+  	height: 10vh;
+  	background-color: #F8F8F8;
+}
+
+  .home {
+  	width: auto;
+  	height: 100%;
+  	float: left;
+  	margin-left: 12.5vw;
+}
+
+  .home p {
+	  padding-top: 25px;
+}
+
+  .home:hover p{
+  	/*cursor: pointer;*/
+  	color: brown;
+  	/*background-color: black;*/
+}
+
+  .adopt {
+  	width: auto;
+  	height: 100%;
+  	margin-left: 5%;
+  	float: left;
+}
+
+  .adopt:hover p{
+  	/*cursor: pointer;*/
+  	color: brown;
+  	/*background-color: black;*/
+}
+
+  .adopt p {
+	  padding-top: 25px;
+}
+
+  .shop {
+  	width: auto;
+  	height: 100%;
+  	margin-left: 5%;
+  	float: left;
+}
+
+  .shop p {
+	  padding-top: 25px;
+}
+
+  .shop:hover p{
+  	/*cursor: pointer;*/
+  	color: brown;
+  	/*background-color: black;*/
+}
+
+  .bunnycare {
+  	width: auto;
+  	height: 100%;
+  	margin-left: 5%;
+  	float: left;
+}
+
+  .bunnycare p {
+	  padding-top: 25px;
+}
+
+  .bunnycare:hover p{
+  	/*cursor: pointer;*/
+  	color: brown;
+  	/*background-color: black;*/
+}
+
+  .margin {
+  	width: 0;
+  	height: 100%;
+  	margin-left: 0;
+  	margin-right: 0;
+}
+
+  section.container {
+  	width: 100%;
+  	height: 60vw;
+  	background-color: #F8F8F8;
+}
+
+  .kiri {
+  	width: 100%;
+  	height: 20vw;
+  	float: left;
+  	padding-left: -15vw;
+  	padding-right: 10vw;
+  	background-color: #F8F8F8;
+}
+
+  .bunnycaree {
+	width: 100%;
+	height: auto;
+	/*padding-left: 10vw;*/
+	padding-top: 5vw;
+}
+
+  .isi {
+  	width: 100%;
+  	height: auto;
+  	/*padding-left: 100px;*/
+  	padding-top: 20px;
+}
+
+  .readmore {
+  	width: 40%;
+  	height: auto;
+  	margin-top: 30px;
+  	/*margin-left: 100px;*/
+  	padding: 20px;
+  	text-align: center;
+  	background-color: antiquewhite;
+}
+  
+  .kanan {
+  	width: 100%;
+  	height: 40vw;
+  	float: left;
+  	background-image: url("../image/kelinciii.jpg");
+  	background-size: 30%;
+  	background-repeat: no-repeat;
+  	margin-left: 30vw;
+  	position: absolute;
+  	margin-top: 90vw;
+}
+
+.topic1 {
+	width: 100%;
+	height: auto;
+	padding-top: 70px;
+	padding-left: 100px;
+}
+
+
+}
